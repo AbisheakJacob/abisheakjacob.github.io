@@ -1,18 +1,17 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Hi! I'm Abisheak Jacob
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I started my career as a Project Manager in Purchasing. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I am passionate about managing complex projects, and optimizing business process to redcue lead time, minimize cost, and ensure quality.
+
+I am good with data and analytics. I am curious about tech and the latest development in Data Science and AI.
+
+I am currently looking for work that utilizes my expertise and industry knowledge and allows me to grow as a Project Manager and strategist.
 
 
-[jekyll-organization]: https://github.com/jekyll
