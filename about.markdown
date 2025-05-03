@@ -14,4 +14,11 @@ I am good with data and analytics. I am curious about tech and the latest develo
 
 I am currently looking for work that utilizes my expertise and industry knowledge and allows me to grow as a Project Manager and strategist.
 
+## My Skills
+### Technical Skills
 
+{% include technicalskills.md %}
+
+### Soft Skills
+
+{% include softskills.md %}
