@@ -3,38 +3,56 @@ body {
 }
 
 a {
-    color: #007ACC
+    color: #007ACC;
+    font-family: "Roboto";
+    font-size: 0.85em;
 }
 
 a:visited {
     color: #da6900
 }
 
-h3,
+h3{
+    color: #015068;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
 h3.archive__subtitle {
     clear: both;
     color: #103966;
     font-family: "Lato";
-    font-size: 1.35em;
+    font-size: 1em;
 }
 
 
 
-h1,
-h2 {
-    color: #00a8db;
+h1{
+    color: #015068;
     font-family: "Lato";
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #015068;
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 1.3em;
 }
 
 p,
 .sidebar p,
 .archive__item-title,
-a,
+a,ul,
 body {
     font-family: "Roboto";
+    font-size: 0.85em;
+    text-align: justify;
 }
 
 #main {
     position: relative;
 }
+

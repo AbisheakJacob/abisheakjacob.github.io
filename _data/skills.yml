@@ -1,12 +1,12 @@
 technical:
- - title: CSS and SCSS
-   level: Intermediate
- - title: HTML5
-   level: Intermediate
- - title: JavaScrpt
+ - title: SQL
    level: Advanced
- - title: ReactJS
+ - title: Python
+   level: Intermediate
+ - title: MS Excel (VBA)
    level: Advanced
+ - title: Power BI (DAX)
+   level: Intermediate
 
 soft:
  - title: Writing
