@@ -50,6 +50,8 @@ I am a Data Analytics Professional with 1.5 years of experience in managing comp
 
 ## Certifications
 
+Lean Six Sigma Certification (Council of Six Sigma Certification)
+
 ## Academic Projects
 
 ## Honors & Awards
