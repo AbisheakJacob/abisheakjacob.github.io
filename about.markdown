@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hi! I'm Abisheak Jacob
 
-I am a Data Analytics Professional with 1.5 years of experience in managing complex digital and optimization projects, specializing in operations, supply chain, purchasing, and project management areas. Skilled in Data Profiling, Data Modelling (Dimensional and Relational), requirements gathering, risk analysis, and process optimization. Looking to leverage my experience in data analytics, visualization, and programming skills to contribute to data-driven decision making and digitalization initiatives. 
+I am an analytics professional with 1.5 years of experience in managing digital and optimization projects, specializing in operations, supply chain, purchasing, and project management areas. Skilled in data profiling, dimensional and relational data modeling, requirements gathering, risk & gap analysis, and process optimization. Eager to leverage my strong data analysis, visualization, and programming skills to contribute to data-driven decision making and support digital transformation initiatives. 
 
 ## My Experience
 ### Bosch Automotive Electronics India Pvt. Ltd.
