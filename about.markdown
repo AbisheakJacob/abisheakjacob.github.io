@@ -11,6 +11,8 @@ I am an analytics professional with 1.5 years of experience in managing digital 
 ## My Experience
 
 ### Impact Analytics
+#### Business Analyst | Jun 2025 - Present | Bangalore, India
+
 ### Bosch Automotive Electronics India Pvt. Ltd.
 #### Management Trainee | Jun 2024 – Present | Bangalore, India
 
