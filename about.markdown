@@ -14,7 +14,7 @@ I am an analytics professional with 1.5 years of experience in managing digital 
 #### Business Analyst | Jun 2025 - Present | Bangalore, India
 
 ### Bosch Automotive Electronics India Pvt. Ltd.
-#### Management Trainee | Jun 2024 – Present | Bangalore, India
+#### Management Trainee | Jun 2024 – Jun 2025 | Bangalore, India
 
 **Purchasing Project Management – Digitalization, ML, Reporting**
 
