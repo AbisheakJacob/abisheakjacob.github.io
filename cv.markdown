@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: CV
-permalink: /cv/
+permalink: /resume/
 ---
 
 This is a detailed representation of my journey
