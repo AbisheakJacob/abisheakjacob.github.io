@@ -4,10 +4,10 @@ main:
     url: /about/
   - title: "CV"
     url: /resume/
-  - title: "My Work"
-    url: /mywork/
-  - title: "My Writings"
-    url: /mywritings/
+  - title: "Projects"
+    url: /projects/
+  - title: "Articles"
+    url: /articles/
   - title: "Certifications"
     url: /certifications/
   - title: "Contact Me"

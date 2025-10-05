@@ -1,7 +1,7 @@
 ---
 layout: categories_article
-title: My Writings
-permalink: /mywritings/
+title: Articles
+permalink: /articles/
 author: Abisheak Jacob J
 author_profile: true
 ---
