@@ -6,12 +6,19 @@ permalink: /about/
 
 # Hi! I'm Abisheak Jacob
 
-I am an analytics professional with 1.5 years of experience in managing digital and optimization projects, specializing in operations, supply chain, purchasing, and project management areas. I am skilled in data profiling, dimensional and relational data modeling, requirements gathering, risk & gap analysis, and process optimization. I am eager to leverage my strong data analysis, visualization, and programming skills to contribute to data-driven decision making and support digital transformation initiatives. 
+I am an artificial intelligence professional with 1.9 years of experience in managing analytics, retail, and optimization projects, specializing in supply chain, purchasing, and project management areas. I am skilled in data profiling, dimensional and relational data modeling, requirements gathering, risk & gap analysis, and process optimization. I am eager to leverage my strong data analysis, visualization, and programming skills to contribute to data-driven decision making and support AGI initiatives. 
 
 ## My Experience
 
 ### Impact Analytics
-#### Business Analyst | Jun 2025 - Present | Bangalore, India
+
+#### AI Analyst | Sep 2025 - Present | Bangalore, India
+
+**Proof of Concept: Implementation - Cannibalization, Size Curve Optimization**
+
+#### Business Analyst | Jun 2025 - Sep 2025 | Bangalore, India
+
+**Proof of Concept: Implementation - Cannibalization, Size Curve Optimization**
 
 ### Bosch Automotive Electronics India Pvt. Ltd.
 #### Management Trainee | Jun 2024 – Jun 2025 | Bangalore, India
