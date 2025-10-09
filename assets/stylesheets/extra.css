@@ -1,0 +1,24 @@
+.fixed-section {
+  max-width: 900px;      /* keeps content from stretching too wide */
+  margin: 0 auto;        /* centers the section horizontally */
+  padding: 2rem;         /* adds inner spacing */
+  background: var(--md-default-bg-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.fixed-section img {
+  max-width: 200px;      /* prevent image from resizing too much */
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+  .fixed-section {
+    padding: 1rem;
+  }
+  .fixed-section img {
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
