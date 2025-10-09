@@ -1,0 +1,9 @@
+slug: test-post
+authors:
+    - abisheakjacob
+links:
+    - index.md
+    - about.md
+    - Nested section:
+        - External Link: https://example.com
+        - contact.md

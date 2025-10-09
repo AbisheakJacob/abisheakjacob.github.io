@@ -1,0 +1,97 @@
+site_name: Abisheak Jacob Portfolio
+site_url: https://abisheakjacob.github.io
+site_description: Portfolio of Abisheak Jacob - AI Analyst and Tech Enthusiast
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: blog/index.md
+  - Contact: contact.md
+
+plugins:
+  - search
+  - meta
+  - blog
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      use_git: false
+#  - mkdocs-git-revision-date-localized-plugin:
+#       locale: en
+#       fallback_to_build_date: false
+#       timezone: Asia/Kolkata
+#       type: timeago
+
+theme:
+  name: material
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark Mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  icon:
+    logo: fontawesome/solid/atom
+  features:
+    - navigation.tabs
+    - navigation.top
+    # - navigation.footer
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+
+# Emoji, Syntax Highlighting, Content Tabs, Callouts, Flowcharts
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+# Add css file
+extra_css:
+  - assets/stylesheets/extra.css
+
+# Add social media links
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/abisheakjacob
+    - icon: fontawesome/brands/linkedin-in
+      link: https://linkedin.com/in/abisheakjacob
+
+# Add Copyright
+copyright: Copyright &copy; 2024 Abisheak Jacob. All rights reserved.
