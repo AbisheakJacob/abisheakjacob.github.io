@@ -29,7 +29,7 @@ url: "https://abisheakjacob.github.io/" # the base hostname & protocol for your 
 github_username:  AbisheakJacob # the username of your GitHub account, used for social links
 search: true # Enable search functionality
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.27.0"
+remote_theme: "mmistakes/minimal-mistakes@4.27.0" # Specifies the remote theme and version
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate

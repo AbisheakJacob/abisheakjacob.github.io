@@ -1,5 +1,6 @@
 ---
-layout: categories_article
+layout: categories
+target_category: article
 title: My Writings
 permalink: /mywritings/
 author: Abisheak Jacob J

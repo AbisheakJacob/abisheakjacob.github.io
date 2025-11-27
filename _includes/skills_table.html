@@ -1,0 +1,11 @@
+{% comment %}
+Include: skills_table.html
+Description: Renders a table of skills based on the provided type.
+Usage: {% include skills_table.html type="soft" %} or {% include skills_table.html type="technical" %}
+{% endcomment %}
+| Skill | Level |
+| ---- | ---- |
+{% assign skills = site.data.skills[include.type] | sort: "title" -%}
+{% for skill in skills -%}
+| {{skill.title}} | {{skill.level}} |
+{% endfor %}

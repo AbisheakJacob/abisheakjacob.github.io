@@ -7,9 +7,9 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.4.1"
-gem "minimal-mistakes-jekyll"
-gem "jekyll-remote-theme"
+gem "jekyll", "~> 4.4.1" # The core Jekyll static site generator
+gem "minimal-mistakes-jekyll" # The theme used for the site
+gem "jekyll-remote-theme" # Allows using themes hosted on GitHub
 group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-sitemap"

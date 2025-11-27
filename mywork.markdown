@@ -1,5 +1,7 @@
 ---
-layout: categories_work
+layout: categories
+target_category: work
+
 title: My Work
 permalink: /mywork/
 author: Abisheak Jacob J
