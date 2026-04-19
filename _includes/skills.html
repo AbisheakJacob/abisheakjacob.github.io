@@ -1,0 +1,41 @@
+<div class="skills-section">
+
+  <!-- FILTERS -->
+  <div class="skills-filters">
+    <button class="filter-btn active" data-filter="all">
+      All Skills 
+      <span>
+        {% assign total = 0 %}
+        {% for cat in site.data.skills %}
+          {% assign total = total | plus: cat.skills.size %}
+        {% endfor %}
+        {{ total }}
+      </span>
+    </button>
+
+    {% for cat in site.data.skills %}
+      <button class="filter-btn" data-filter="{{ cat.category }}">
+        <i class="{{ cat.icon }}"></i>
+        {{ cat.category }}
+        <span>{{ cat.skills | size }}</span>
+      </button>
+    {% endfor %}
+  </div>
+
+  <!-- SKILLS -->
+  <div class="skills-container">
+    {% for cat in site.data.skills %}
+      {% for skill in cat.skills %}
+        <span class="skill-chip" data-category="{{ cat.category }}">
+          <i class="{{ skill.icon }}"></i>
+          {{ skill.name }}
+        </span>
+      {% endfor %}
+    {% endfor %}
+  </div>
+
+  <p class="skills-count">
+    Showing <span id="skill-count"></span> total skills
+  </p>
+
+</div>

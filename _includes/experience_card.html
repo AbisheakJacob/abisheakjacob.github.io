@@ -1,0 +1,26 @@
+
+<div class="exp-card">
+  <div class="exp-left">
+    <i class="{{ item.logo }}"></i>
+  </div>
+
+  <div class="exp-right">
+    <div class="exp-header">
+      <h5>{{ item.company }}</h5>
+    </div>
+
+    {% for role in item.roles %}
+    <div class="exp-role">
+      <div class="exp-role-left">
+        <p class="role-title">{{ role.title }}</p>
+        <p class="role-desc">{{ role.desc }}</p>
+      </div>
+      <div class="exp-role-right">
+        <p class="exp-duration">{{ role.duration }}</p>
+        <span class="exp-tag">{{ role.tag }}</span>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>

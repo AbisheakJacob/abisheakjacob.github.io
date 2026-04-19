@@ -1,0 +1,27 @@
+- company: Impact Analytics
+  logo: fontawesome-solid:fa-microsoft
+  roles:
+    - title: AI Analyst
+      desc: AI Analyst in Implementation team
+      duration: Nov 2025 - Present
+      tag: Hybrid
+    - title: Business Analyst
+      desc: Worked on PoC for retail clients.
+      duration: Jun 2025 - Nov 2025
+      tag: Hybrid
+
+- company: Bosch
+  logo: fontawesome-solid:fa-bosch
+  roles:
+    - title: Post Graduate Management Trainee
+      desc: Data Analytics in Purchasing Project Management
+      duration: Jun 2024 - Jun 2025
+      tag: On Site
+
+- company: Tata Insights and Quants
+  logo: fontawesome-solid:fa-tata
+  roles:
+    - title: Optimization Research Analyst
+      desc: Worked on optimization problems for airline industry.
+      duration: Oct 2024 - Mar 2025
+      tag: Hybrid

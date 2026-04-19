@@ -1,15 +1,41 @@
-technical:
- - title: SQL
-   level: Advanced
- - title: Python
-   level: Intermediate
- - title: MS Excel (VBA)
-   level: Advanced
- - title: Power BI (DAX)
-   level: Intermediate
+- category: Analytics
+  icon: fa-solid fa-brain
+  skills:
+    - name: PyTorch
+      icon: fa-solid fa-fire
 
-soft:
- - title: Writing
-   level: Intermediate
- - title: Leadership
-   level: Intermediate
+- category: Python Libs
+  icon: fa-brands fa-python
+  skills:
+    - name: Pandas
+      icon: fa-solid fa-table
+    - name: Numpy
+      icon: fa-solid fa-calculator
+    - name: BeautifulSoup
+      icon: fa-solid fa-magnifying-glass
+    - name: Selenium
+      icon: fa-solid fa-robot
+
+- category: Cloud
+  icon: fa-solid fa-cloud
+  skills:
+    - name: Google Cloud Platform
+      icon: fa-brands fa-google
+
+- category: Databases
+  icon: fa-solid fa-database
+  skills:
+    - name: Google BigQuery
+      icon: fa-solid fa-database
+    - name: PostgreSQL
+      icon: fa-solid fa-database
+    - name: MySQL
+      icon: fa-solid fa-database
+
+- category: Languages
+  icon: fa-solid fa-code
+  skills:
+    - name: Python
+      icon: fa-brands fa-python
+    - name: SQL
+      icon: fa-solid fa-database

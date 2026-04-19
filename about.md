@@ -38,11 +38,9 @@ I am an analytics professional with 1.5 years of experience in managing digital 
 ## My Skills
 ### Technical Skills
 
-{% include skills_table.html type="technical" %}
 
 ### Soft Skills
 
-{% include skills_table.html type="soft" %}
 
 ## My Education
 

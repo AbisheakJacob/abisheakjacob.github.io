@@ -1,0 +1,72 @@
+.skills-section {
+  margin-top: 40px;
+}
+
+/* FILTER BUTTONS */
+.skills-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* ✅ center categories */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  border: 1px solid #e5e7eb;
+  padding: 8px 14px;
+  border-radius: 20px;
+  background: #f3f4f6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.filter-btn span {
+  margin-left: 6px;
+  opacity: 0.7;
+}
+
+.filter-btn.active {
+  background: #111827;
+  color: white;
+  border-color: #111827;
+}
+
+/* SKILL CHIPS */
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;   /* ✅ center align skills */
+  gap: 10px;
+
+  margin-top: 20px;          /* ✅ space from categories */
+
+  padding: 20px;
+  border: 1px solid #e5e7eb; /* ✅ card border */
+  border-radius: 12px;
+  background: #fafafa;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+
+.skill-chip {
+  padding: 6px 12px;
+  border-radius: 16px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.skill-chip:hover {
+  background: #000000;
+  color: white;
+}
+
+
+/* COUNT */
+.skills-count {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #6b7280;
+  text-align: center;   /* ✅ center align */
+}

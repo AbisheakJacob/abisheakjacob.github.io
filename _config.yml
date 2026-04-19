@@ -27,7 +27,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://abisheakjacob.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  AbisheakJacob # the username of your GitHub account, used for social links
-search: true # Enable search functionality
+search: true 
+author_profile: false
+fontawesome: true
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.0" # Specifies the remote theme and version
 plugins:
@@ -38,6 +41,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

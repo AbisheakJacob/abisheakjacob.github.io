@@ -1,0 +1,40 @@
+.profile-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 20px 0;
+  align-items: start;
+}
+
+.profile-left {
+  flex: 2;
+}
+
+.profile-right {
+  flex: 1;
+  text-align: right;
+}
+
+.profile-right img {
+  height: auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.profile-right:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-right {
+    text-align: center;
+  }
+}

@@ -1,0 +1,113 @@
+
+.exp-card {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Hover effect */
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* LEFT (logo + timeline) */
+.exp-left {
+  position: relative;
+}
+
+.exp-left img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Timeline line */
+// .exp-left::after {
+//   content: "";
+//   position: absolute;
+//   top: 50px;
+//   left: 50%;
+//   width: 2px;
+//   height: calc(100% + 20px);
+//   background: #e5e7eb;
+//   transform: translateX(-50%);
+// }
+
+/* RIGHT */
+.exp-right {
+  flex: 1;
+
+}
+
+/* Header */
+.exp-header {
+  // display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exp-header h5 {
+  margin: 0 0 8px;
+  color: #5a5a5a;
+}
+
+/* Roles */
+.exp-role {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+/* LEFT SIDE */
+.exp-role-left {
+  min-width: 0; /* prevents overflow issues */
+}
+
+.role-title {
+  font-weight: 600;
+  margin: 0;
+}
+
+.role-desc {
+  margin: 2px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* RIGHT SIDE */
+.exp-role-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;  /* right align */
+  gap: 0;
+  white-space: nowrap;    /* prevents breaking */
+}
+
+.exp-duration {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Tag */
+.exp-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: #f3f4f6;
+  font-size: 11px;
+  font-weight: bold;
+  justify-content: left;
+  margin: 0;
+}

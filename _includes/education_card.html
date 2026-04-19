@@ -1,0 +1,27 @@
+
+<div class="education-card">
+  <div class="education-left">
+    <i class="{{ item.logo }}"></i>
+  </div>
+
+  <div class="education-right">
+    <div class="education-header">
+      <h5>{{ item.institution }}</h5>
+    </div>
+
+    <div class="education-role">
+      <div class="education-role-left">
+        <div class="degree-row">
+          <p class="role-title">{{ item.degree }}</p>
+          <span class="education-cgpa">CGPA: {{ item.cgpa }}</span>
+        </div>
+        <p class="role-desc">{{ item.desc }}</p>
+      </div>
+      <div class="education-role-right">
+        <p class="education-duration">{{ item.duration }}</p>
+        <span class="education-tag">{{ item.location }}</span>
+      </div>
+    </div>
+  </div>
+
+</div>
